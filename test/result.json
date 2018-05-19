@@ -1,1 +1,45 @@
-{"name":"config","profiles":["dev"],"label":null,"version":"8702140a1cbfe2a1d46ca5e41efbaa77b55038c5","state":null,"propertySources":[{"name":"https://github.com/29shadow/config-repo.git/configs/config-dev.properties","source":{"config.env":"dev"}}]}
+#http:localhost:8888/config/dev
+
+{
+    "name": "config",
+    "profiles": [
+        "dev"
+    ],
+    "label": null,
+    "version": "8702140a1cbfe2a1d46ca5e41efbaa77b55038c5",
+    "state": null,
+    "propertySources": [
+        {
+            "name": "https://github.com/29shadow/config-repo.git/configs/config-dev.properties",
+            "source": {
+                "config.env": "dev"
+            }
+        }
+    ]
+}
+
+#修改配置重新访问
+{
+    "name": "config",
+    "profiles": [
+        "dev"
+    ],
+    "label": null,
+    "version": "cb0174eb0e19e11370b4450e27e1a7c500f07b53",
+    "state": null,
+    "propertySources": [
+        {
+            "name": "https://github.com/29shadow/config-repo.git/configs/config-dev.properties",
+            "source": {
+                "config.env": "dev",
+                "spring.datasource.url": "http://localhost:3306/test",
+                "spring.datasource.driver": "mysql",
+                "sprnig.datasource.user": "gtzhou",
+                "sprng.datasource.password": "xxxx"
+            }
+        }
+    ]
+}
+
+#直接访问配置文件
+#http://localhost:8888/config-dev.properties
