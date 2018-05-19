@@ -1,0 +1,1 @@
+{"name":"config","profiles":["dev"],"label":null,"version":"8702140a1cbfe2a1d46ca5e41efbaa77b55038c5","state":null,"propertySources":[{"name":"https://github.com/29shadow/config-repo.git/configs/config-dev.properties","source":{"config.env":"dev"}}]}
